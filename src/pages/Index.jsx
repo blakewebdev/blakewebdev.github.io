@@ -31,10 +31,10 @@ function Menu() {
         <>
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={<Banner />} />
-                <Route path="/sobre" element={<Sobre />} />
-                <Route path="/trabalhos" element={<Trabalhos />} />
-                <Route path="/contato" element={<Contato />} />
+                <Route path="https://blakewebdev.github.io/" element={<Banner />} />
+                <Route path="https://blakewebdev.github.io/sobre" element={<Sobre />} />
+                <Route path="https://blakewebdev.github.io/trabalhos" element={<Trabalhos />} />
+                <Route path="https://blakewebdev.github.io/contato" element={<Contato />} />
             </Routes>
         </BrowserRouter>
         <div className="menu">

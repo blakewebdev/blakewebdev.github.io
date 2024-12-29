@@ -40,16 +40,16 @@ function Menu() {
         <div className="menu">
             <ul>
                 <li>
-                    <a href="https://blakewebdev.github.io/" alt="Início" title="Início">Início</a>
+                    <a href="/" alt="Início" title="Início">Início</a>
                 </li>
                 <li>
-                    <a href="https://blakewebdev.github.io/sobre" alt="Sobre" title="Sobre">Sobre</a>
+                    <a href="/sobre" alt="Sobre" title="Sobre">Sobre</a>
                 </li>
                 <li>
-                    <a href="https://blakewebdev.github.io/trabalhos" alt="Trabalhos" title="Trabalhos">Trabalhos</a>
+                    <a href="/trabalhos" alt="Trabalhos" title="Trabalhos">Trabalhos</a>
                 </li>
                 <li>
-                    <a href="https://blakewebdev.github.io/contato" alt="Contato" title="Contato">Contato</a>
+                    <a href="/contato" alt="Contato" title="Contato">Contato</a>
                 </li>
             </ul>
         </div>

@@ -31,25 +31,25 @@ function Menu() {
         <>
         <BrowserRouter>
             <Routes>
-                <Route path="https://blakewebdev.github.io/" element={<Banner />} />
-                <Route path="https://blakewebdev.github.io/sobre" element={<Sobre />} />
-                <Route path="https://blakewebdev.github.io/trabalhos" element={<Trabalhos />} />
-                <Route path="https://blakewebdev.github.io/contato" element={<Contato />} />
+                <Route path="/" element={<Banner />} />
+                <Route path="/sobre" element={<Sobre />} />
+                <Route path="/trabalhos" element={<Trabalhos />} />
+                <Route path="/contato" element={<Contato />} />
             </Routes>
         </BrowserRouter>
         <div className="menu">
             <ul>
                 <li>
-                    <a href="/" alt="Início" title="Início">Início</a>
+                    <a href="https://blakewebdev.github.io/" alt="Início" title="Início">Início</a>
                 </li>
                 <li>
-                    <a href="/sobre" alt="Sobre" title="Sobre">Sobre</a>
+                    <a href="https://blakewebdev.github.io/sobre" alt="Sobre" title="Sobre">Sobre</a>
                 </li>
                 <li>
-                    <a href="/trabalhos" alt="Trabalhos" title="Trabalhos">Trabalhos</a>
+                    <a href="https://blakewebdev.github.io/trabalhos" alt="Trabalhos" title="Trabalhos">Trabalhos</a>
                 </li>
                 <li>
-                    <a href="/contato" alt="Contato" title="Contato">Contato</a>
+                    <a href="https://blakewebdev.github.io/contato" alt="Contato" title="Contato">Contato</a>
                 </li>
             </ul>
         </div>
